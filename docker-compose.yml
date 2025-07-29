@@ -1,0 +1,11 @@
+services:
+  tika:
+    image: apache/tika:latest
+    container_name: tika
+    restart: unless-stopped
+    ports:
+      - "9998:9998"
+    expose:
+      - "9998"
+    volumes:
+      - ./db/tika:/data
