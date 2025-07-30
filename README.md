@@ -23,14 +23,17 @@ from various document formats and saves them as text files.
 ```
 
 ## Usage
-
-1. **Place documents in the input directory:**
+1. Start Apache Tika server using Docker:
+   ```bash
+   docker compose up -d
+   ```
+2. **Place documents in the input directory:**
    ```bash
    mkdir input
    cp your-documents/* ./input/
    ```
 
-2. **Run the extraction pipeline:**
+3. **Run the extraction pipeline:**
    ```bash
    deno task dev
    ```
@@ -40,7 +43,7 @@ from various document formats and saves them as text files.
    deno run -A main.ts
    ```
 
-3. **Check the extracted text files in the output directory:**
+4. **Check the extracted text files in the output directory:**
    ```bash
    ls output/
    ```
