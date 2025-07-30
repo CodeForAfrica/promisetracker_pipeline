@@ -8,8 +8,8 @@ from various document formats and saves them as text files.
 - 📁 **Batch Processing**: Process all files in the input directory
   automatically
 - ⚡ **Duplicate Detection**: Skip files that have already been extracted
-- 🚀 **Deno Native**: Built using Deno runtime and standard library features
-- 🔧 **Apache Tika Integration**: Supports multiple document formats (PDF, DOC,
+- 🚀 **[Deno Native](https://deno.com/)**: Built using Deno runtime and standard library features
+- 🔧 **[Apache Tika](https://tika.apache.org/) Integration**: Supports multiple document formats (PDF, DOC,
   DOCX, etc.)
 
 ## Project Structure
@@ -57,7 +57,7 @@ from various document formats and saves them as text files.
 
 ## Supported File Formats
 
-The pipeline uses Apache Tika and supports:
+The pipeline uses [Apache Tika and supports](https://tika.apache.org/3.2.1/formats.html):
 
 - PDF documents
 - Microsoft Word (DOC, DOCX)
